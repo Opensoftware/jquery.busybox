@@ -1,0 +1,20 @@
+.busybox {
+    position: absolute;
+    z-index: 9999;
+    color: #fff;
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+    opacity: 0.6;
+    filter: alpha(opacity=95);
+    -ms-filter: "alpha(opacity=95)";
+}
+
+.busy-box-no-opacity {
+    position: absolute;
+    z-index: 9999;
+    color: #fff;
+    background-color: #666;
+    margin: 0;
+    padding: 0;
+}
