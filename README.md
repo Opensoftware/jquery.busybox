@@ -11,7 +11,7 @@ Example of usage:
 
     var loading = $("#my_container").busyBox({
       spinner: '<img src="themes/gold/images/loading.gif" />'
-    });  
+    });
 
     $.ajax({
       url: "/my-url",
@@ -22,3 +22,5 @@ Example of usage:
         loading.busyBox('close');
       }
     });
+
+In images directory, you can find some 'spinners' to reuse.
